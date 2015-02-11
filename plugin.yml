@@ -1,0 +1,9 @@
+name: Havoc
+main: io.github.jfischer00.havocplugin.HavocPlugin
+version: 1.0
+commands:
+  havoc:
+    description: Wreak Havoc!
+    usage: /<command> <player> <type>
+    permission: <plugin name>.use
+    permission-message: You may not wreak havoc.
