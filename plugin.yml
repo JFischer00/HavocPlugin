@@ -1,9 +1,14 @@
 name: Havoc
 main: io.github.jfischer00.havocplugin.HavocPlugin
-version: 1.0
+version: 1.3-beta
 commands:
   havoc:
     description: Wreak Havoc!
     usage: /<command> <player> <type>
     permission: <plugin name>.use
     permission-message: You may not wreak havoc.
+  enabled:
+    description: Check if havoc type is enabled.
+    usage: /<command> <type>
+    permission: <plugin name>.checkenabled
+    permission-message: You cannot check havoc types.s

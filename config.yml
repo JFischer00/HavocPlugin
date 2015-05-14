@@ -1,0 +1,14 @@
+#Havoc Config File
+#Comment out types to disable
+
+###Warning! If you disable show and not hide, you will not be able to restore players vision of other players!###
+
+enabledTypes:
+- ghasts
+- creepers
+- fire
+- kill
+- lightning
+- hide
+- show
+- ultimate
